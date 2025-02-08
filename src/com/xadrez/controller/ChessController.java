@@ -1,4 +1,4 @@
-package com.chess.controller;
+package com.xadrez.controller;
 
 import com.chess.model.Peca;
 import com.chess.model.PecaFactory;

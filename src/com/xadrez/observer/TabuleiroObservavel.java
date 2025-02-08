@@ -1,4 +1,4 @@
-package com.chess.observer;
+package com.xadrez.observer;
 
 import java.util.ArrayList;
 import java.util.List;

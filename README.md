@@ -3,7 +3,7 @@
 ```markdown
 # ♟️ Chess Game - Jogo de Xadrez em Java
 
-![Chess Banner](https://raw.githubusercontent.com/VictorSantos674/ChessGame/main/resources/banner.png)
+![Chess Banner](https://raw.githubusercontent.com/VictorSantos674/ChessGame/main/src/com/xadrez/resources/images/banner_xadrez.jpg)
 
 ## 📌 Sobre o Projeto
 Este é um jogo de xadrez desenvolvido em **Java** seguindo o **padrão MVC**, com aplicação dos padrões **Factory Method** e **Observer**.  
@@ -42,12 +42,12 @@ cd ChessGame
 ### 2️⃣ Compile o projeto
 Se estiver usando **Java 17+** com JavaFX instalado:
 ```sh
-javac --module-path /caminho/para/javafx/lib --add-modules javafx.controls,javafx.fxml src/com/yourusername/Main.java
+javac --module-path /caminho/para/javafx/lib --add-modules javafx.controls,javafx.fxml src/com/VictorSantos674/Main.java
 ```
 
 ### 3️⃣ Execute o jogo
 ```sh
-java --module-path /caminho/para/javafx/lib --add-modules javafx.controls,javafx.fxml -cp src com.yourusername.Main
+java --module-path /caminho/para/javafx/lib --add-modules javafx.controls,javafx.fxml -cp src com.VictorSantos674.Main
 ```
 
 ## ✅ Funcionalidades
@@ -74,7 +74,7 @@ Este projeto está sob a licença **MIT**. Veja mais detalhes no arquivo [LICENS
 
 ---
 
-🚀 Desenvolvido por [Seu Nome](https://github.com/yourusername)  
+🚀 Desenvolvido por [Seu Nome](https://github.com/VictorSantos674)  
 Se gostou do projeto, deixe uma ⭐ no repositório!
 ```
 

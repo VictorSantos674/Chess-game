@@ -1,0 +1,14 @@
+{
+    "tabuleiro": {
+      "tamanho": 8
+    },
+    "pecas": {
+      "rei": "K",
+      "rainha": "Q",
+      "bispo": "B",
+      "cavalo": "N",
+      "torre": "R",
+      "peao": "P"
+    }
+  }
+  

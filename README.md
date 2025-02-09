@@ -74,7 +74,7 @@ Este projeto está sob a licença **MIT**. Veja mais detalhes no arquivo [LICENS
 
 ---
 
-🚀 Desenvolvido por [Seu Nome](https://github.com/VictorSantos674)  
+🚀 Desenvolvido por [Victor Santos](https://github.com/VictorSantos674)  
 Se gostou do projeto, deixe uma ⭐ no repositório!
 ```
 

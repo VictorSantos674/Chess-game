@@ -1,4 +1,4 @@
-package com.xadrez.tests;
+package tests;
 
 import com.xadrez.controller.ChessController;
 import com.xadrez.model.*;

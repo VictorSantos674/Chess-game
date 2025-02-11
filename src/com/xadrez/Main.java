@@ -1,4 +1,4 @@
-package com.chess;
+package com.xadrez;
 
 import com.chess.controller.ChessController;
 import com.chess.observer.TabuleiroObservavel;

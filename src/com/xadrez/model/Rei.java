@@ -1,4 +1,4 @@
-package com.chess.model;
+package com.xadrez.model;
 
 public class Rei extends Peca {
     public Rei(String cor) {

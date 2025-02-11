@@ -1,4 +1,4 @@
-package com.yourusername.model;
+package com.xadrez.model;
 
 import org.json.JSONObject;
 import java.nio.file.Files;

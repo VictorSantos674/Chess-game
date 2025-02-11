@@ -1,29 +1,26 @@
-### 📜 **README.md**  
-
-```markdown
 # ♟️ Chess Game - Jogo de Xadrez em Java
 
 ![Chess Banner](https://raw.githubusercontent.com/VictorSantos674/ChessGame/main/src/com/xadrez/resources/images/banner_xadrez.jpg)
 
 ## 📌 Sobre o Projeto
-Este é um jogo de xadrez desenvolvido em **Java** seguindo o **padrão MVC**, com aplicação dos padrões **Factory Method** e **Observer**.  
-A interface gráfica foi implementada utilizando **JavaFX** e as configurações do tabuleiro são carregadas a partir de um arquivo **JSON**.
+Este é um jogo de xadrez desenvolvido em **Java**, estruturado com o padrão **MVC** e utilizando os padrões de projeto **Factory Method** e **Observer**. 
+A interface gráfica foi implementada em **JavaFX**, e as configurações do tabuleiro são carregadas dinamicamente a partir de um arquivo **JSON**.
 
 ## 🚀 Tecnologias Utilizadas
-- Java 17+
-- JavaFX
-- JUnit 5 (Testes)
-- JSON (Configuração)
-- Padrões de Projeto: **MVC**, **Factory Method**, **Observer**
+- **Java 17+**
+- **JavaFX**
+- **JUnit 5** (Testes automatizados)
+- **JSON** (Configuração do tabuleiro)
+- **Padrões de Projeto**: **MVC**, **Factory Method**, **Observer**
 
 ## 📂 Estrutura do Projeto
 ```
 📦 ChessGame
  ┣ 📂 src
- ┃ ┣ 📂 com.yourusername.controller
- ┃ ┣ 📂 com.yourusername.model
- ┃ ┣ 📂 com.yourusername.observer
- ┃ ┣ 📂 com.yourusername.view
+ ┃ ┣ 📂 com.chessgame.controller
+ ┃ ┣ 📂 com.chessgame.model
+ ┃ ┣ 📂 com.chessgame.observer
+ ┃ ┣ 📂 com.chessgame.view
  ┣ 📂 resources
  ┃ ┗ 📜 config.json
  ┣ 📂 test
@@ -42,22 +39,23 @@ cd ChessGame
 ### 2️⃣ Compile o projeto
 Se estiver usando **Java 17+** com JavaFX instalado:
 ```sh
-javac --module-path /caminho/para/javafx/lib --add-modules javafx.controls,javafx.fxml src/com/VictorSantos674/Main.java
+javac --module-path /caminho/para/javafx/lib --add-modules javafx.controls,javafx.fxml -d bin src/com/chessgame/Main.java
 ```
 
 ### 3️⃣ Execute o jogo
 ```sh
-java --module-path /caminho/para/javafx/lib --add-modules javafx.controls,javafx.fxml -cp src com.VictorSantos674.Main
+java --module-path /caminho/para/javafx/lib --add-modules javafx.controls,javafx.fxml -cp bin com.chessgame.Main
 ```
 
 ## ✅ Funcionalidades
-✔️ Movimento das peças respeitando as regras do xadrez  
-✔️ Interface gráfica com JavaFX  
+✔️ Movimentos das peças conforme as regras oficiais do xadrez  
+✔️ Interface gráfica intuitiva com JavaFX  
 ✔️ Carregamento dinâmico de configurações via JSON  
 ✔️ Aplicação de padrões de projeto para maior escalabilidade  
+✔️ Testes automatizados para validação das regras  
 
 ## 🧪 Testes Automatizados
-Para rodar os testes unitários com **JUnit 5**, use:
+Para rodar os testes unitários com **JUnit 5**, utilize:
 ```sh
 mvn test
 ```
@@ -65,26 +63,14 @@ mvn test
 ## 🏗️ Como Contribuir
 1. **Fork** o projeto  
 2. Crie uma **branch** (`git checkout -b feature-sua-feature`)  
-3. **Commit** suas mudanças (`git commit -m "Adicionei nova funcionalidade"`)  
+3. **Commit** suas mudanças (`git commit -m "Descrição da melhoria"`)  
 4. Faça um **push** para a branch (`git push origin feature-sua-feature`)  
 5. Crie um **Pull Request** no GitHub  
 
 ## 📜 Licença
-Este projeto está sob a licença **MIT**. Veja mais detalhes no arquivo [LICENSE](LICENSE).
+Este projeto está sob a licença **MIT**. Para mais detalhes, consulte o arquivo [LICENSE](LICENSE).
 
 ---
 
 🚀 Desenvolvido por [Victor Santos](https://github.com/VictorSantos674)  
-Se gostou do projeto, deixe uma ⭐ no repositório!
-```
-
----
-
-### 🔹 **O que esse README inclui?**
-✅ **Explicação clara do projeto**  
-✅ **Passos detalhados para instalação e execução**  
-✅ **Dicas sobre dependências (JavaFX, JUnit)**  
-✅ **Sugestões para contribuição**  
-✅ **Boa estrutura e formatação**
-
-Se precisar de alguma modificação ou quiser adicionar um **GIF demonstrando o jogo**, me avise! 🚀♟️
+Se gostou do projeto, deixe uma ⭐ no repositório! 🎉♟️
